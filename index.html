@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Burger Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Burger Builder</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="order.html">Order</a>
+  </nav>
+</header>
+<main>
+  <section id="builder">
+    <h1>Build your burger</h1>
+
+    <form id="burger-form">
+      <fieldset>
+
+      <legend>Select your bread</legend>
+      <input type="radio" name="bread" id="classic" value="5">
+      <label for="classic">Classic</label>
+      <input type="radio" name="bread" id="sesame" value="7 ">
+      <label for="sesame">Sesame (+7 MAD)</label>
+    </fieldset>
+      <fieldset>
+      <legend>Select your meat type</legend>
+      <input type="radio" name="meat" id="beef" value="20">
+      <label for="beef">Beef</label>
+      <input type="radio" name="meat" id="chicken" value="20">
+      <label for="chicken">Chicken</label>
+      </fieldset>
+      <fieldset>
+      <legend>Select your Extras</legend>
+      <input type="checkbox" name="extras" id="cheese" value="5">
+      <label for="cheese">Cheese (+5 MAD)</label>
+      <input type="checkbox" name="extras" id="lettuce" value="5">
+      <label for="lettuce">Lettuce (+5 MAD)</label>
+      <input type="checkbox" name="extras" id="tomato" value="5">
+      <label for="tomato">Tomato (+5 MAD)</label>
+      <input type="checkbox" name="extras" id="onion" value="5">
+      <label for="onion">Onion (+5 MAD)</label>
+      <input type="checkbox" name="extras" id="magical-sauce" value="7">
+      <label for="magical-sauce">Magical Sauce (+7 MAD)</label>
+      <input type="checkbox" name="extras" id="mustard" value="2">
+      <label for="mustard">Mustard (+2 MAD)</label>
+      <input type="checkbox" name="extras" id="ketchup" value="2">
+      <label for="ketchup">Ketchup (+2 MAD)</label>
+      <input type="checkbox" name="extras" id="mayonnaise" value="2">
+      <label for="mayonnaise">Mayonnaise (+2 MAD)</label>
+      </fieldset>
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" name="quantity" value="1" min="1">
+      <button type="submit" id="btn">Build your burger</button>
+    </form>
+  </section>
+  <section id="preview">
+    <h2>Your burger</h2>
+
+    <div id="burger">
+      <div class="layer bun-top"></div>
+      <div class="layer sauce"></div>
+      <div class="layer lettuce"></div>
+      <div class="layer tomato"></div>
+      <div class="layer onion"></div>
+      <div class="layer cheese"></div>
+      <div class="layer meat"></div>
+      <div class="layer sauce"></div>
+      <div class="layer bun-bottom"></div>
+    </div>
+
+    <p>Total: <span id="total">0</span> MAD</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Ahmed's Burgers</p>
+</footer>
+
+</body>
+</html>
