@@ -68,18 +68,6 @@ legend {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .layer {
     width: 250px;
     height: 25px;
@@ -98,10 +86,15 @@ legend {
     border-radius: 1px 1px 30px 30px;
 }
 
-.meat {
+.beef {
     height: 30px;
-    background-color: #6a4646;
     border-radius: 10px 10px 10px 10px;
+    background-color: #6a4646;
+}
+.chicken {
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #b56527;
 }
 .lettuce {
     position: relative;
@@ -136,5 +129,11 @@ legend {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
-
+.bun-top.sesame {
+    background-image: radial-gradient(#fff3c4 2px, transparent 3px);
+    background-size: 18px 14px;
+}
+.hidden {
+    display: none;
+}
 
