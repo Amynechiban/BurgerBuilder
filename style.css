@@ -1,13 +1,29 @@
+*{
+    font-size: 20px;
+}
 header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: sans-serif;
     background-color: #8b4513;
     color: white;
-    padding: 20px;
-
+    padding: 15px 30px;
 }
+
+.logo img {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    margin: 0;
+}
+
 nav {
-    margin-top: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 nav a {
@@ -16,6 +32,7 @@ nav a {
     padding: 10px 15px;
     text-transform: uppercase;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -123,7 +140,7 @@ legend {
     border-radius: 50% 50% 45% 55% / 70% 60% 40% 30%;
 }
 
-.sauce{
+.magical-sauce{
     height: 10px;
     background: linear-gradient(180deg, #781900 0%, #813b3b 70%, #bc0000 100%);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
