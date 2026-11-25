@@ -6,13 +6,13 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
-    background-color: #8b4513;
+    background-color: #fb8836;
     color: white;
     padding: 15px 30px;
 }
 
 .logo img {
-    width: 250px;
+    width: 400px;
     height: auto;
     display: block;
 }
@@ -24,6 +24,7 @@ header h1 {
 nav {
     display: flex;
     gap: 10px;
+
 }
 
 nav a {
@@ -86,7 +87,7 @@ legend {
 }
 
 .layer {
-    width: 250px;
+    width: 500px;
     height: 25px;
     margin: 3px auto;
 
@@ -115,7 +116,6 @@ legend {
 }
 .lettuce {
     position: relative;
-    width: 260px;
     height: 30px;
     border-radius: 50% 50% 45% 55% / 70% 60% 40% 30%;
     background: linear-gradient(180deg, #8ce043 0%, #92f664 70%, #367c14 100%);
